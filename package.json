@@ -1,0 +1,34 @@
+{
+  "name": "autorouter-project",
+  "version": "0.0.1",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "liuying",
+  "scripts": {
+    "dev": "parcel index.html -p 8888",
+    "build": "parcel build index.html --public-url /"
+  },
+  "alias": {
+    "@": "./src"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-vue-auto-router": "^0.0.2",
+    "pug": "^2.0.3",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  }
+}
