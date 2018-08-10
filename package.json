@@ -9,7 +9,7 @@
     "build": "parcel build index.html --public-url /"
   },
   "alias": {
-    "@": "./src"
+    "source": "./src"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^2.1.1",

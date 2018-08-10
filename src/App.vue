@@ -1,6 +1,6 @@
 <style lang="scss">
-@import '~@/assets/common';
-@import '~@/assets/page';
+@import '~source/assets/common';
+@import '~source/assets/page';
 </style>
 <template lang="pug">
   .lt-page

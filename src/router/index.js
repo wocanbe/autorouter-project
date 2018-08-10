@@ -4,8 +4,6 @@ import store from '../store'
 import * as type from '../store/mutation-types'
 import autorouter from './view.autorouter'
 
-console.log(autorouter)
-
 Vue.use(Router)
 
 const router = new Router({
