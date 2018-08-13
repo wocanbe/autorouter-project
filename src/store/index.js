@@ -11,7 +11,7 @@ const debug = process.env.NODE_ENV !== 'production'
 
 export default new Vuex.Store({
   state: {
-    errMsg: 'ereerr',
+    errMsg: '',
     mask: false,
     loading: false,
     msg: 'The demo of vue auto router'
